@@ -1,0 +1,164 @@
+Device: cuda
+Half-structure mesh: 370 x 126 = 46620 elements
+Physical size: 370.0 x 126.0
+Element size: dx=1.0000, dy=1.0000
+Interactive live display: ON
+Fixed elements: 2700 (5.8%)
+  - Deck: 2220 elements
+  - Pier: 1200 elements
+Void elements: 31172 (66.9%)
+Design Domain I (lower): 9362 (20.1%)
+Design Domain II (arch): 2666 (5.7%)
+Total Design elements: 12748 (27.3%)
+Fillable elements: 15448 (33.1%)
+Target total volume: 9074 (overall frac: 0.1946)
+Design domain target volume: 6374
+Design domain initial density: 0.5000
+Left pin nodes: 1
+Symmetry boundary nodes: 127
+Pier base fixed nodes: 533
+Load nodes: 371, load per node: -0.0013
+Building density filter matrix...
+Building GNN sparse adjacency matrix...
+Live display window opened.
+
+============================================================
+Starting GNN-dPINN Bridge Topology Optimization
+Scheme A: Quadratic Parabola Arch
+v3visual: Lower boundary horizontal raised to y=80
+    Pier upper part (y belong [40,100]) design domain, volfrac=0.50
+    Local symmetry within x belong [95,295]
+    Live animation + GIF export enabled
+    Frame interval: every 1 iterations
+============================================================
+Iter: 001 | Compliance: 5.1259e+00 | dRho: 0.0201 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 500 | Loss: -2.9870e+00
+Iter: 002 | Compliance: 5.3839e+00 | dRho: 0.0218 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -3.0448e+00
+Iter: 003 | Compliance: 5.3426e+00 | dRho: 0.0212 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -3.0961e+00
+Iter: 004 | Compliance: 5.3657e+00 | dRho: 0.0213 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -3.1230e+00
+Iter: 005 | Compliance: 5.3895e+00 | dRho: 0.0215 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -3.1105e+00
+Iter: 006 | Compliance: 5.3586e+00 | dRho: 0.0218 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -3.0592e+00
+Iter: 007 | Compliance: 5.3598e+00 | dRho: 0.0223 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -3.0085e+00
+Iter: 008 | Compliance: 5.3054e+00 | dRho: 0.0224 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -2.9375e+00
+Iter: 009 | Compliance: 5.2761e+00 | dRho: 0.0227 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -2.8698e+00
+Iter: 010 | Compliance: 5.2453e+00 | dRho: 0.0228 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -2.7999e+00
+Iter: 011 | Compliance: 5.1530e+00 | dRho: 0.0216 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -2.7055e+00
+Iter: 012 | Compliance: 5.1423e+00 | dRho: 0.0224 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -2.6473e+00
+Iter: 013 | Compliance: 5.0707e+00 | dRho: 0.0222 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -2.5691e+00
+Iter: 014 | Compliance: 4.9907e+00 | dRho: 0.0218 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -2.4837e+00
+Iter: 015 | Compliance: 4.8996e+00 | dRho: 0.0207 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -2.4107e+00
+Iter: 016 | Compliance: 4.8079e+00 | dRho: 0.0204 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -2.3445e+00
+Iter: 017 | Compliance: 4.6412e+00 | dRho: 0.0212 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -2.2765e+00
+Iter: 018 | Compliance: 4.4737e+00 | dRho: 0.0226 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -2.2099e+00
+Iter: 019 | Compliance: 4.3138e+00 | dRho: 0.0242 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -2.1425e+00
+Iter: 020 | Compliance: 4.1359e+00 | dRho: 0.0242 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -2.0648e+00
+  -> Checkpoint saved at iteration 20
+Iter: 021 | Compliance: 4.0536e+00 | dRho: 0.0234 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -2.0298e+00
+Iter: 022 | Compliance: 3.9443e+00 | dRho: 0.0219 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.9770e+00
+Iter: 023 | Compliance: 3.8133e+00 | dRho: 0.0200 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.9135e+00
+Iter: 024 | Compliance: 3.6815e+00 | dRho: 0.0227 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.7360e+00
+Iter: 025 | Compliance: 3.6270e+00 | dRho: 0.0216 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.8192e+00
+Iter: 026 | Compliance: 3.5326e+00 | dRho: 0.0222 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.7715e+00
+Iter: 027 | Compliance: 3.3620e+00 | dRho: 0.0244 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.6797e+00
+Iter: 028 | Compliance: 3.3973e+00 | dRho: 0.0265 | Vol: 0.1945 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.7043e+00
+Iter: 029 | Compliance: 3.3340e+00 | dRho: 0.0232 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.6732e+00
+Iter: 030 | Compliance: 3.2898e+00 | dRho: 0.0242 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.6498e+00
+Iter: 031 | Compliance: 3.2415e+00 | dRho: 0.0240 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.6266e+00
+Iter: 032 | Compliance: 3.1895e+00 | dRho: 0.0233 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.6018e+00
+Iter: 033 | Compliance: 3.1441e+00 | dRho: 0.0223 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.5775e+00
+Iter: 034 | Compliance: 3.1015e+00 | dRho: 0.0212 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.5548e+00
+Iter: 035 | Compliance: 3.0312e+00 | dRho: 0.0211 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.5246e+00
+Iter: 036 | Compliance: 3.0214e+00 | dRho: 0.0216 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.5132e+00
+Iter: 037 | Compliance: 2.9858e+00 | dRho: 0.0228 | Vol: 0.1945 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.4953e+00
+Iter: 038 | Compliance: 2.9426e+00 | dRho: 0.0241 | Vol: 0.1944 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.4779e+00
+Iter: 039 | Compliance: 2.9197e+00 | dRho: 0.0254 | Vol: 0.1944 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.4637e+00
+Iter: 040 | Compliance: 2.8641e+00 | dRho: 0.0236 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.4363e+00
+  -> Checkpoint saved at iteration 40
+Iter: 041 | Compliance: 2.8742e+00 | dRho: 0.0233 | Vol: 0.1945 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.4401e+00
+Iter: 042 | Compliance: 2.8336e+00 | dRho: 0.0246 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.4238e+00
+Iter: 043 | Compliance: 2.8314e+00 | dRho: 0.0238 | Vol: 0.1944 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.4186e+00
+Iter: 044 | Compliance: 2.7958e+00 | dRho: 0.0241 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.4034e+00
+Iter: 045 | Compliance: 2.7884e+00 | dRho: 0.0248 | Vol: 0.1944 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.3967e+00
+Iter: 046 | Compliance: 2.7656e+00 | dRho: 0.0233 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.3840e+00
+Iter: 047 | Compliance: 2.7335e+00 | dRho: 0.0250 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.3698e+00
+Iter: 048 | Compliance: 2.7304e+00 | dRho: 0.0250 | Vol: 0.1944 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.3693e+00
+Iter: 049 | Compliance: 2.7108e+00 | dRho: 0.0234 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.3420e+00
+Iter: 050 | Compliance: 2.6861e+00 | dRho: 0.0248 | Vol: 0.1946 | LR: 5.00e-04 | Epochs: 300 | Loss: -1.3426e+00
+Iter: 051 | Compliance: 2.6930e+00 | dRho: 0.0254 | Vol: 0.1943 | LR: 2.50e-04 | Epochs: 300 | Loss: -1.3478e+00
+Iter: 052 | Compliance: 2.6734e+00 | dRho: 0.0223 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 300 | Loss: -1.3377e+00
+Iter: 053 | Compliance: 2.6574e+00 | dRho: 0.0238 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 300 | Loss: -1.3296e+00
+Iter: 054 | Compliance: 2.6505e+00 | dRho: 0.0243 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 300 | Loss: -1.3264e+00
+Iter: 055 | Compliance: 2.6422e+00 | dRho: 0.0249 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 300 | Loss: -1.3225e+00
+Iter: 056 | Compliance: 2.6334e+00 | dRho: 0.0249 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 300 | Loss: -1.3184e+00
+Iter: 057 | Compliance: 2.6242e+00 | dRho: 0.0249 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 300 | Loss: -1.3139e+00
+Iter: 058 | Compliance: 2.6170e+00 | dRho: 0.0246 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 300 | Loss: -1.3098e+00
+Iter: 059 | Compliance: 2.6057e+00 | dRho: 0.0243 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 300 | Loss: -1.3030e+00
+Iter: 060 | Compliance: 2.6001e+00 | dRho: 0.0239 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 300 | Loss: -1.3012e+00
+  -> Checkpoint saved at iteration 60
+Iter: 061 | Compliance: 2.5924e+00 | dRho: 0.0236 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2974e+00
+Iter: 062 | Compliance: 2.5773e+00 | dRho: 0.0231 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2916e+00
+Iter: 063 | Compliance: 2.5740e+00 | dRho: 0.0224 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2853e+00
+Iter: 064 | Compliance: 2.5678e+00 | dRho: 0.0219 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2774e+00
+Iter: 065 | Compliance: 2.5577e+00 | dRho: 0.0216 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2808e+00
+Iter: 066 | Compliance: 2.5512e+00 | dRho: 0.0211 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2753e+00
+Iter: 067 | Compliance: 2.5454e+00 | dRho: 0.0207 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2736e+00
+Iter: 068 | Compliance: 2.5357e+00 | dRho: 0.0203 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2693e+00
+Iter: 069 | Compliance: 2.5306e+00 | dRho: 0.0200 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2666e+00
+Iter: 070 | Compliance: 2.5262e+00 | dRho: 0.0203 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2633e+00
+Iter: 071 | Compliance: 2.5205e+00 | dRho: 0.0205 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2610e+00
+Iter: 072 | Compliance: 2.5025e+00 | dRho: 0.0206 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2497e+00
+Iter: 073 | Compliance: 2.5111e+00 | dRho: 0.0207 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2558e+00
+Iter: 074 | Compliance: 2.5078e+00 | dRho: 0.0208 | Vol: 0.1946 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2526e+00
+Iter: 075 | Compliance: 2.5020e+00 | dRho: 0.0210 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2521e+00
+Iter: 076 | Compliance: 2.4996e+00 | dRho: 0.0211 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2496e+00
+Iter: 077 | Compliance: 2.4951e+00 | dRho: 0.0212 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2462e+00
+Iter: 078 | Compliance: 2.4900e+00 | dRho: 0.0213 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2426e+00
+Iter: 079 | Compliance: 2.4865e+00 | dRho: 0.0214 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2435e+00
+Iter: 080 | Compliance: 2.4843e+00 | dRho: 0.0215 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2428e+00
+  -> Checkpoint saved at iteration 80
+Iter: 081 | Compliance: 2.4806e+00 | dRho: 0.0215 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2411e+00
+Iter: 082 | Compliance: 2.4786e+00 | dRho: 0.0214 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2250e+00
+Iter: 083 | Compliance: 2.4733e+00 | dRho: 0.0214 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2376e+00
+Iter: 084 | Compliance: 2.4693e+00 | dRho: 0.0215 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2351e+00
+Iter: 085 | Compliance: 2.4675e+00 | dRho: 0.0215 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2345e+00
+Iter: 086 | Compliance: 2.4631e+00 | dRho: 0.0216 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2327e+00
+Iter: 087 | Compliance: 2.4602e+00 | dRho: 0.0216 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2256e+00
+Iter: 088 | Compliance: 2.4576e+00 | dRho: 0.0213 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2131e+00
+Iter: 089 | Compliance: 2.4546e+00 | dRho: 0.0212 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2286e+00
+Iter: 090 | Compliance: 2.4529e+00 | dRho: 0.0213 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2273e+00
+Iter: 091 | Compliance: 2.4492e+00 | dRho: 0.0214 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2231e+00
+Iter: 092 | Compliance: 2.4472e+00 | dRho: 0.0214 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2244e+00
+Iter: 093 | Compliance: 2.4394e+00 | dRho: 0.0215 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2212e+00
+Iter: 094 | Compliance: 2.4364e+00 | dRho: 0.0214 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2197e+00
+Iter: 095 | Compliance: 2.4425e+00 | dRho: 0.0213 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2221e+00
+Iter: 096 | Compliance: 2.4382e+00 | dRho: 0.0214 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2207e+00
+Iter: 097 | Compliance: 2.4368e+00 | dRho: 0.0213 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2199e+00
+Iter: 098 | Compliance: 2.4370e+00 | dRho: 0.0213 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2193e+00
+Iter: 099 | Compliance: 2.4336e+00 | dRho: 0.0214 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2173e+00
+Iter: 100 | Compliance: 2.4339e+00 | dRho: 0.0214 | Vol: 0.1945 | LR: 2.50e-04 | Epochs: 200 | Loss: -1.2178e+00
+  -> Checkpoint saved at iteration 100
+Iter: 101 | Compliance: 2.4331e+00 | dRho: 0.0214 | Vol: 0.1945 | LR: 1.25e-04 | Epochs: 200 | Loss: -1.2170e+00
+Converged at iteration 101 (relative compliance std = 0.0102 < 0.02)
+
+Optimization completed! Total time: 247.12 seconds
+Final compliance: 2.4331e+00
+Final volume fraction: 0.1945
+Lower boundary: diagonal (0,100)->(30,80), horizontal y=80, parabola (95,80)->(189,40)
+Pier design domain: y∈[40,100] (base y∈[0,40] fixed)
+Local symmetry: x∈[95,295] about pier centerline x=195
+v3可视化 - Raised lower boundary horizontal to y=80, volfrac=0.50
+Saved: bridge_results/final_topology.png
+Saved: bridge_results/compliance_curve.png
+Saved: bridge_results/full_structure_color.png
+
+============================================================
+Saving animated GIFs...
+============================================================
+Saved animation: bridge_results/topology_half_animation.gif (101 frames)
+Saved animation: bridge_results/topology_full_animation.gif (101 frames)
+Saved animation: bridge_results/compliance_animation.gif (101 frames)
+
+Live display updated with final result.
+Close the plot window to exit the program.
+Saved all .npy data files
+
+All results saved to 'bridge_results/' directory
